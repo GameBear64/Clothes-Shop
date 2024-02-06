@@ -7,6 +7,7 @@
     "dev": "concurrently -n BE,FE -c yellow,blue \"npm run BE\" \"npm run FE\"",
     "BE": "cd api && nodemon --ignore db/",
     "FE": "vite",
+    "setup": "npm i && cd api && npm i",
     "eslint": "eslint --fix \"src/**/*.{vue,js}\"",
     "build": "vite build",
     "preview": "vite preview"
