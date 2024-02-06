@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Slim Fit Men's Suit",
+    "category": ["men", "shirt", "pants", "top"],
+    "price": 199.99,
+    "description": "In need of that special something for a suitably special occasion? Look no further than our, well, latest suit jacket by Ted Baker. Featuring a comfortable wool blend and slim fit in black Panama, this piece is styled with a two button fastening, notch lapel and four-button cuffs. Ready to amp up your game? Do it in style with this Ted Baker piece and let the compliments roll in. 88% Wool 8% Polyester 4% Elastance",
+    "image": ["1-1", "1-2", "1-3", "1-4", "1-5"]
+  },
+  {
+    "id": 2,
+    "name": "Floral Print Summer Dress",
+    "category": ["women", "skirt"],
+    "price": 59.99,
+    "description": "Chiffon midi dress with puff sleeves and stunning embroidery detail on the yoke and sleeves, designed in collaboration with the V and A. Outer 100% Polyester. Inner 100% Polyester. Trim 100% Viscose. Embroidery 68% Polyester, 32% Metallised fibre.",
+    "image": ["2-1", "2-2", "2-3", "2-4"]
+  },
+  {
+    "id": 3,
+    "name": "Classic Denim Jacket",
+    "category": ["women", "top"],
+    "price": 79.99,
+    "description": "WARDROBE STAPLE. Come rain or shine, a classic denim jacket will always have your back. This stylish take on a wardrobe staple is designed to complete any look. Best of all, it will never go out of style.",
+    "image": ["3-1", "3-2", "3-3", "3-4"]
+  },
+  {
+    "id": 4,
+    "name": "Striped Knit Sweater",
+    "category": ["women", "shirt"],
+    "price": 49.99,
+    "description": "This sweater features a relaxed oversized fit and a stretchy rib knit. It has a rounded neckline and wide long sleeves. This sweater comes in stripe. 50% Viscose, 25% Polyester, 20% Polyamide, 5% Elastane",
+    "image": ["4-1", "4-2", "4-3", "4-4", "4-5"]
+  },
+  {
+    "id": 5,
+    "name": "Casual Linen Shirt",
+    "category": ["men", "top", "shirt"],
+    "price": 29.99,
+    "description": "Our linen blend shirt is a versatile addition to your seasonal wardrobe. Made from a soft fabric blend for comfort, this shirt is designed in a flattering length that can be worn tucked in or untucked. With a button-down collar, front button placket and chest pocket. Machine washable. 54% Linen, 46% Cotton.",
+    "image": ["5-1", "5-2", "5-3", "5-4", "5-5"]
+  },
+  {
+    "id": 6,
+    "name": "A-Line Midi Skirt",
+    "category": ["women", "skirt"],
+    "price": 39.99,
+    "description": "Create an on-trend look with this versatile pleated skirt by French Connection. It's designed in a flattering midi length and features an elasticated waist for all-day comfort. 100% polyester",
+    "image": ["6-1", "6-2", "6-3", "6-4"]
+  },
+  {
+    "id": 7,
+    "name": "Hooded Sweatshirt",
+    "category": ["men", "top"],
+    "price": 44.99,
+    "description": "With our collection of sweatshirts and hoodies you'll easily add an extra stylish layer to any outfit. The B&C Hooded Sweat, made from PST (Perfect Sweat Technology) fabric, offers comfort with large front pockets and hood. Featuring B&C's Perfect Sweat Technology, the B&C Hooded sweatshirt is not just a fashion classic, it offers enhanced printability thanks to its unique fabric construction that offers the best print results. On top, it has a luxurious, soft handfeel and quality matt appearance, combined with durability and great comfort.",
+    "image": ["7-1", "7-2", "7-3", "7-4", "7-5"]
+  },
+  {
+    "id": 8,
+    "name": "Boho Print Maxi Dress",
+    "category": ["women", "skirt"],
+    "price": 69.99,
+    "description": "This chic hippie dress has been designed to match your Boho spirit to your Bohemian wardrobe. You will certainly appreciate its V-neck with its belt at the waist in order to enhance your body figure. It's a dress which can wear at any occasion like on the beach until the streets of Paris. To bring a little more to your outfit, accessorizing it with a straw hat and a fancy long necklace in inspiration Boho!",
+    "image": ["8-1", "8-2", "8-3"]
+  },
+  {
+    "id": 9,
+    "name": "Tailored Slim Fit Trousers",
+    "category": ["men", "pants"],
+    "price": 49.99,
+    "description": "With their textured check finish, these trousers will make a standout addition to your wardrobe. Added stretch and a single pleat offer freedom of movement. Kick tape protects the hems from wear and tear. The trousers fasten with a neat hook and bar. M&S Collection: easy-to-wear wardrobe staples that combine classic and contemporary styles. 69% polyester, 29% viscose and 2% elastane",
+    "image": ["9-1", "9-2", "9-3", "9-4", "9-5"]
+  },
+  {
+    "id": 10,
+    "name": "Printed Blouse",
+    "category": ["women", "shirt"],
+    "price": 34.99,
+    "description": "Printed blouse, Mini ruffle detail on the sleeves, Mandarin collar with ruffles and tie, Elasticated cuffs, 85% viscose, 15% polyamide",
+    "image": ["10-1", "10-2", "10-3", "10-4"]
+  },
+  {
+    "id": 11,
+    "name": "Puffer Jacket",
+    "category": ["men", "top"],
+    "price": 89.99,
+    "description": "Born from two hiker' love for adventure, The North Face has become one of the best-known brands for outdoor clothing and equipment. Look to our The North Face at ASOS edit to cop cult streetwear pieces, including T-shirts, joggers and hoodies, or unlock new levels of warmth with the label's covetable waterproof coats, windbreakers, ski jackets and snug fleeces. Hitting the trail? Scroll everything from hard-wearing trainers to super-strong bags and backpacks.",
+    "image": ["11-1", "11-2", "11-3", "11-4"]
+  },
+  {
+    "id": 12,
+    "name": "Knee-Length Pencil Skirt",
+    "category": ["women", "skirt"],
+    "price": 54.99,
+    "description": "STYLISH & FLATTERING: Our super stretchy and breathable material provides the perfect fit for any occasion. The solid colors are easy to match, helping you create your unique fashion look. PERFECT FOR WORK OR GOING OUT: This pencil skirt is perfect for everyday wear. The tight, but stretchy fabric will ensure an elegant fit while providing comfort and versatility. HIGH QUALITY MATERIALS & CRAFTSMANSHIP: Proudly Made in the USA with premium Nylon/Spandex Blend fabric. AMAZING VALUE: Made with high quality fabrics and a wide selection of colors. Plus size is available.",
+    "image": ["12-1", "12-2", "12-3", "12-4"]
+  },
+  {
+    "id": 13,
+    "name": "V-Neck Sweater",
+    "category": ["men"],
+    "price": 39.99,
+    "description": "Merino Wool",
+    "image": "vneck_sweater_image1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Cropped Wide-Leg Pants",
+    "category": ["women"],
+    "price": 49.99,
+    "description": "Polyester",
+    "image": "wide_leg_pants_image1.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Button-Down Shirt",
+    "category": ["men"],
+    "price": 34.99,
+    "description": "Cotton",
+    "image": "button_down_shirt_image1.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Ruffle Sleeve Blouse",
+    "category": ["women"],
+    "price": 29.99,
+    "description": "Chiffon",
+    "image": "ruffle_blouse_image1.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Cotton T-Shirt",
+    "category": ["men"],
+    "price": 19.99,
+    "description": "100% Cotton",
+    "image": "tshirt_image1.jpg"
+  },
+  {
+    "id": 18,
+    "name": "High-Waisted Skinny Jeans",
+    "category": ["women"],
+    "price": 59.99,
+    "description": "Denim",
+    "image": "jeans_image1.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Casual Polo Shirt",
+    "category": ["men"],
+    "price": 24.99,
+    "description": "Cotton",
+    "image": "polo_shirt_image1.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Stylish Jumper",
+    "category": ["men"],
+    "price": 49.99,
+    "description": "Cotton",
+    "image": "jumper_image1.jpg"
+  }
+]
