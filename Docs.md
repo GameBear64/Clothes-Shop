@@ -6,7 +6,7 @@ There are theme options in the settings
 ![ThemeSetting](https://github.com/GameBear64/Clothes-Shop/assets/33098072/cb81a839-57c2-4408-a865-68c29fb4a4ae)
 ![themes](https://github.com/GameBear64/Clothes-Shop/assets/33098072/e34bc56b-0b50-454c-a592-c90848061420)
 
-The theme is stored in the local storage, if there is no theme saved it will used the default light mode blue theme. The theme is accessible throughput the app using vue's reactive proxy object (similar to a signal)  
+The theme is stored in the local storage, if there is no theme saved it will used the default light mode blue theme. The theme is accessible throughout the app using vue's reactive proxy object (similar to a signal)  
 ![image](https://github.com/GameBear64/Clothes-Shop/assets/33098072/1ac6fcd1-06fc-42da-8590-a02ef3d4ab04)
 
 ## Local Storage
