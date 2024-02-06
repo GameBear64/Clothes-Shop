@@ -1,6 +1,6 @@
 const joi = require('joi');
 const fs = require('fs-extra');
-const { joiValidate, InformationTypes, skipIfNoChanges } = require('../../../middleware/validation');
+const { joiValidate, InformationTypes, skipIfNoChanges } = require('../../middleware/validation');
 
 module.exports.post = [
   joiValidate({ id: joi.string().required() }, InformationTypes.PARAMS),

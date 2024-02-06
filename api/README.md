@@ -15,7 +15,6 @@ If you reach the requests limit on any of the rotes the server will start return
 Joi validation is used to validate all incoming data such as the `body`, the `parameters` and `query parameters`. Each route has different validations.  
 ![image](https://github.com/GameBear64/Clothes-Shop/assets/33098072/b2efe0be-2bc0-4064-9ba8-2c7da20afb7d)
 
-
 When a field is invalid the server will return `[400] Bad Request` and the validation error.
 
 All `body fields` are being `trimmed`, `escaped` and every `string number` is tested and converted to number type. This sanitization is recursive meaning it works on any level of nesting
@@ -24,7 +23,6 @@ All `body fields` are being `trimmed`, `escaped` and every `string number` is te
 
 Encryption is made possible by `bcrypt-js` ensuring encryption on all platforms (tested on Windows and Linux). Passwords go trough 10 rounds of salting and only the hash is being stored.  
 ![image](https://github.com/GameBear64/Clothes-Shop/assets/33098072/e999fe0a-a9f9-423d-89d0-4579f8ea8a85)
-
 
 > This means the server does not know your password!
 
@@ -45,6 +43,20 @@ All routes require a `jwt` header unless specified otherwise!
 - If the token is valid but the route and method are incorrect, the server will return a `[404] Not Found`.
 - If everything is correct but you have "spammed" the server, the server will return `[429] Too Many Requests`
 - If something else happens the server will return a `[500] Internal Server Error` with a stack trace. Save the stack trace and debug.
+
+---
+
+### `/image/[id]?size=000` <u>[GET]</u>
+
+> No auth route
+
+All images are accessible to everyone. Image IDs can be found on the posts responses.
+
+The size query is optional. If it is defined it can only be up to 500. This should be used for generating thumbnails to optimize network traffic.
+
+- [400] - Validation error
+- [404] - No image with this ID found.
+- [200] - Content of type `image/jpg` is send.
 
 ---
 
@@ -166,7 +178,7 @@ Returns:
 
 - [400] - Validation error
 - [403] - Incorrect password
-- [200] - no return, password gets changed
+- [200] - no return, user is deleted
 
 ---
 
@@ -198,17 +210,70 @@ Returns an array of all products
 
 Returns a single product that you specify
 
+- [404] - Product not found
 - [200]
 
 ```json
 {
-  "id": 000,
-  "name": "Product name",
-  "category": "category name",
-  "price": 99.99,
-  "material": "Material description"
+    "id": 000,
+    "name": "Product name",
+    "category": [
+        "men",
+        "shirt",
+        "pants",
+        "top"
+    ],
+    "price": 199.99,
+    "description": "Product description",
+    "image": [ "1-1", "1-2", "1-3", "1-4", "1-5"],
+    "isFavorite": true,
+    "comments": [
+        {
+            "name": "Gam",
+            "authorId": "2cb4ff90",
+            "text": "Comment text",
+            "rating": 4,
+            "date": 1706627261
+        }
+    ]
 }
 ```
+
+---
+
+### `/products/[id]/favorite` <u>[POST]</u>
+
+Add or remove item form your favorites. This route does not check if the product exists.
+
+- [200] - `true` if it has been added, `false` if it has been removed
+
+---
+
+### `/wishlist` <u>[GET]</u>
+
+Get all items from your favorites.
+
+- [200] - Array of products, same as the single product above.
+
+---
+
+### `/checkout` <u>[POST]</u>
+
+Adding to purchase history
+
+> Accepts body:
+>
+> ```json
+> {
+>   "items": [
+>     { "id": "item5", "q": 1 },
+>     { "id": "item1", "q": 7 }
+>   ]
+> }
+> ```
+
+- [400] - Validation error
+- [200] - no return, adds items to history at current time stamp
 
 ---
 
@@ -230,22 +295,48 @@ Returns a purchase history of the logged in user
 
 ---
 
-### `/checkout` <u>[POST]</u>
+### `/comment/[id]` <u>[POST]</u>
 
-Adding to purchase history
+Allows you to post a comment on a product given the id.
 
 > Accepts body:
 >
 > ```json
 > {
->   "items": [
->     { "id": "item5", "q": 1 },
->     { "id": "item1", "q": 7 }
->   ]
+>   "text": "Comment body",
+>   "rating": 5,
 > }
 > ```
 
 - [400] - Validation error
-- [200] - no return, adds items to history at current time stamp
+- [201] - Comment is created and timestamped.
+
+---
+
+### `/comment/[id]` <u>[PATCH]</u>
+
+Allows you to edit a comment you own. All fields are optional.
+
+> Accepts body:
+>
+> ```json
+> {
+>   "text": "Comment body",
+>   "rating": 5,
+> }
+> ```
+
+- [400] - Validation error
+- [404] - Comment not found or you do not own it.
+- [200] - Comment is updated. The time stamp stays the same.
+
+---
+
+### `/comment/[id]` <u>[DELETE]</u>
+
+Allows you to delete a comment on a product given the id.
+
+- [404] - Comment not found or you do not own it.
+- [200] - Comment is deleted.
 
 ---

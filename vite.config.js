@@ -22,8 +22,6 @@ export default defineConfig({
       '@views': path.resolve(__dirname, './src/views'),
       '@form': path.resolve(__dirname, './src/components/Form'),
       '@utils': path.resolve(__dirname, './src/utils'),
-      // '@api': path.resolve(__dirname, './src/stores/apiSlice'),
-      // '@stores': path.resolve(__dirname, './src/stores'),
     },
   },
   build: {
