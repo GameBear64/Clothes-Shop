@@ -1,29 +1,21 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import Cart from '@views/Cart.vue';
-import History from '@views/History.vue'
-import Login from '@views/Login.vue';
 import NotFound from '@views/NotFound.vue';
-import Product from '@views/Product.vue';
-import Register from '@views/Register.vue';
-import Settings from '@views/Settings.vue';
-import Shop from '@views/Shop.vue';
-import WishList from '@views/WishList.vue'
 
 const routes = [
   { path: '/', redirect: { path: '/shop' } },
-  { path: '/login', component: Login },
-  { path: '/register', component: Register },
-  { path: '/shop', component: Shop },
-  { path: '/wishlist', component: WishList },
-  { path: '/history', component: History },
-  { path: '/cart', component: Cart },
-  { path: '/settings', component: Settings },
+  { path: '/shop', component: () => import('@views/Shop.vue') },
+  { path: '/login', component: () => import('@views/Login.vue') },
+  { path: '/register', component: () => import('@views/Register.vue') },
+  { path: '/wishlist', component: () => import('@views/WishList.vue') },
+  { path: '/history', component: () => import('@views/History.vue') },
+  { path: '/cart', component: () => import('@views/Cart.vue') },
+  { path: '/settings', component: () => import('@views/Settings.vue') },
   {
     path: '/product',
     children: [
       { path: '', redirect: { path: `/shop` } },
-      { path: ':id', component: Product },
+      { path: ':id', component: () => import('@views/Product.vue') },
     ],
   },
   { path: '/:pathMatch(.*)*', component: NotFound },

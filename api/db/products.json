@@ -100,63 +100,63 @@
     "name": "V-Neck Sweater",
     "category": ["men"],
     "price": 39.99,
-    "description": "Merino Wool",
-    "image": "vneck_sweater_image1.jpg"
+    "description": "REGULAR FIT: Comfortable, easy fit through the shoulders, chest, and waist COTTON YARN: Knit from a 100% cotton yarn with a soft hand and natural stretch. EVERYDAY SWEATER:  A go-to layering piece, this v-neck pullover sweater is lightweight enough to layer and soft enough to wear on its own. DETAILS: Ribbed at the v-neckline, sleeve cuffs and bottom hem.",
+    "image": ["13-1", "13-2", "13-3", "13-4"]
   },
   {
     "id": 14,
     "name": "Cropped Wide-Leg Pants",
     "category": ["women"],
     "price": 49.99,
-    "description": "Polyester",
-    "image": "wide_leg_pants_image1.jpg"
+    "description": "Relaxed and superversatile, these mid-rise jeans are made from soft, faded stretch denim with ankle-grazing wide legs for a casual-chic appearance 26 1/2' inseam; 19' leg opening; 11 1/2' front rise; 14 1/2' back rise (size 29), Zip fly with button closure, Five-pocket style, 96% organic cotton, 3% polyester, 1% elastane, Machine wash, tumble dry, Made in Turkey",
+    "image": ["14-1", "14-2", "14-3", "14-4"]
   },
   {
     "id": 15,
     "name": "Button-Down Shirt",
     "category": ["men"],
     "price": 34.99,
-    "description": "Cotton",
-    "image": "button_down_shirt_image1.jpg"
+    "description": "Long-sleeve gingham pattern non-iron dress shirt with no pocket, offered in variety of collar types Luxury Supima cotton with a lightweight finish; side pleated back yoke Tailored Fit: trimmed down waist, chest, and sleeve, while maintaining a slightly relaxed Fit in the shoulders and armhole. Tailored Fit is similar to a Modern Fit Supima Cotton is a luxury fiber grown in the United States characterized by extra-long staple fibers which produce fabrics that are softer, smoother, stronger and brighter.  These features are enhanced with wash and wear over the life of the garment",
+    "image": ["15-1", "15-2", "15-3", "15-4", "15-5"]
   },
   {
     "id": 16,
     "name": "Ruffle Sleeve Blouse",
     "category": ["women"],
     "price": 29.99,
-    "description": "Chiffon",
-    "image": "ruffle_blouse_image1.jpg"
+    "description": "Soft ribbed fabric has some stretch Cap Sleeve, Tiered Layered, Form Fitted Perfect for office, going out, street, dating, party and casual dailywear Model Measurements: Height: 68.1 inch, Bust: 31.9 inch, Waist: 22.8 inch, Hips: 33.1 inch. Wear: S",
+    "image": ["16-1", "16-2", "16-3", "16-4"]
   },
   {
     "id": 17,
     "name": "Cotton T-Shirt",
     "category": ["men"],
     "price": 19.99,
-    "description": "100% Cotton",
-    "image": "tshirt_image1.jpg"
+    "description": "Originally designed for Daniel Craig in Casino Royale, the Riviera crew neck T-shirt is crafted in a luxurious midweight cotton fabric. Its smooth, durable feel and slight extra weight makes it the ideal solution for transitioning between the seasons.",
+    "image": ["17-1", "17-2", "17-3", "17-4"]
   },
   {
     "id": 18,
     "name": "High-Waisted Skinny Jeans",
     "category": ["women"],
     "price": 59.99,
-    "description": "Denim",
-    "image": "jeans_image1.jpg"
+    "description": "Comfortable, timeless and dependable, our super soft slim jeans are the perfect go-to denim option for any casual look. These jeans feature a zip and button fastening, a five pocket design and a slim fitting leg. Zip and button fastening. Slim fitting. Five-pocket styling. Belt loops. Cotton blend. [72% Cotton, 20% Polyester, 6% Viscose, 2% Elastane.]",
+    "image": ["18-1", "18-2", "18-3", "18-4", "18-5"]
   },
   {
     "id": 19,
     "name": "Casual Polo Shirt",
     "category": ["men"],
     "price": 24.99,
-    "description": "Cotton",
-    "image": "polo_shirt_image1.jpg"
+    "description": "Men's Casual Polo Shirts: No one wants their clothes to be limiting whether you're working out or not. You can trust this contrasting color Polo Shirt will make you stand out, just like you. Men's Long Sleeve Golf Polo: Sports style, contrast color, breathable, soft, not easy to wrinkle with strong toughness. Men's Cotton Polo T Shirts: Long-sleeve polo shirt featuring three-button placket and chest pocket. Occasion: Classic fit through the chest for a comfortable unrestricted fit, suitable for daily work, casual wear or leisure activities. An essential item in your wardrobe. Garment Care: Machine wash cold. Do not bleach. Tumble dry low. Warm iron if needed.SIZE:Size are US standard size,please choose your size according to our size chart (Not the Amazon Size Chart) and if you have big belley and wide shoulders, we recommend you to go up one size!",
+    "image": ["19-1", "19-2", "19-3", "19-4", "19-5"]
   },
   {
     "id": 20,
     "name": "Stylish Jumper",
     "category": ["men"],
     "price": 49.99,
-    "description": "Cotton",
-    "image": "jumper_image1.jpg"
+    "description": "Hi Sir. This knit jumper from Hisir in a selection of great-quality blends will keep you incredibly warm in cold winter and provide you with unbelievable comfort and softness! UK Sizes. Regular fit knitted jumpers for men. Model wears size S, height: 180cm/5ft 11in, weight: 69kg/152lbs, chest: 38in, fits true to size. This men's jumper is made from a selection of great-quality blends that offer many benefits: unbelievably soft, very warm, non-pilling, and durable. For extra nice comfort in these cold, biting winter months! A classic basic jumper for men, perfect for everyday wear. Special crew neck design, long sleeves, and elasticated ribbed ends. Anti-pilling fabric with high stitch density for durability. Retains its shape after many washes. Comfortable and versatile, this sweaters tops is perfect on its own or as an outer layer over a blazer or jacket. Must-have winter jumpers for men, giving you great value for money.",
+    "image": ["20-1", "20-2", "20-3", "20-4", "20-5", "20-6"]
   }
 ]
