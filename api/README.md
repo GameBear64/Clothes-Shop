@@ -12,7 +12,9 @@ If you reach the requests limit on any of the rotes the server will start return
 
 ### Validation and sanitization
 
-Joi validation is used to validate all incoming data such as the `body`, the `parameters` and `query parameters`. Each route has different validations.
+Joi validation is used to validate all incoming data such as the `body`, the `parameters` and `query parameters`. Each route has different validations.  
+![image](https://github.com/GameBear64/Clothes-Shop/assets/33098072/b2efe0be-2bc0-4064-9ba8-2c7da20afb7d)
+
 
 When a field is invalid the server will return `[400] Bad Request` and the validation error.
 
@@ -20,7 +22,9 @@ All `body fields` are being `trimmed`, `escaped` and every `string number` is te
 
 ### Encryption and storage
 
-Encryption is made possible by `bcrypt-js` ensuring encryption on all platforms (tested on Windows and Linux). Passwords go trough 10 rounds of salting and only the hash is being stored.
+Encryption is made possible by `bcrypt-js` ensuring encryption on all platforms (tested on Windows and Linux). Passwords go trough 10 rounds of salting and only the hash is being stored.  
+![image](https://github.com/GameBear64/Clothes-Shop/assets/33098072/e999fe0a-a9f9-423d-89d0-4579f8ea8a85)
+
 
 > This means the server does not know your password!
 
